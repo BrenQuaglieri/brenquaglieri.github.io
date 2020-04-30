@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.left-side {
+    width: 30%;
+    background: #FFD700;
+    justify-content: center;
+}
+
+.right-side {
+    width: 70%;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.left-side>div>h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #2C2C2C;
+    color: #FFD700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-side>div {
+    justify-content: center;
+}
+
+.contact {
+    margin-bottom: 60px;
+}
+
+.contact div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-resume {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #323232;
+    font-size: 20px;
+    margin-bottom: 300px;
+}
+
+.hobbies p {
+    text-align: center;
+}
+
+.name {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.name p {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+h1 span {
+    color: #FFD700;
+}
+
+.name>p>span {
+    border-bottom: solid 2px #FFD700;
+}
+
+.right-side h2 {
+    margin-left: 100px;
+    margin-right: 70px;
+    border-bottom: solid 2px #FFD700;
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.formation>div {
+    display:flex;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.left-formation {
+    width:30%;
+}
+
+.left-formation>p {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #323232;
+
+}
+
+.right-formation {
+    width:70%;
+}
+
+.right-formation>div>p {
+    color: #323232;
+}
+
+.exp>div {
+    display:flex;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.left-exp {
+    width:30%;
+}
+
+.left-exp>p {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #323232;
+
+}
+
+.right-exp {
+    width:70%;
+}
+
+.right-exp>div>p {
+    color: #323232;
+}
+
+
+
+.reco>div {
+    display:flex;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.left-reco {
+    width:50%;
+}
+
+.left-reco>p {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #323232;
+
+}
+
+.right-reco {
+    width:50%;
+}
+
+.right-reco>div>p {
+    color: #323232;
+}
+
