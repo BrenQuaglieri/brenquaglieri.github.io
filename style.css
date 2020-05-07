@@ -7,7 +7,8 @@ body {
 .left-side {
     width: 30%;
     background: #FFD700;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-side {
@@ -52,15 +53,24 @@ img {
     margin-right: 50px;
     color: #323232;
     font-size: 20px;
-    margin-bottom: 150px;
+}
+
+.hobbies {
+    margin-top: auto;
 }
 
 .hobbies p {
     text-align: center;
 }
 
-i {
-    font-size: 40px !important;
+.hobbies p span i {
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.right-side h2 i {
+    font-size: 40px;
     color: #2C2C2C;
 }
 
@@ -130,6 +140,7 @@ h1 span {
 
 .exp>div {
     display:flex;
+    flex-direction: column;
     margin-left: 100px;
     margin-right: 70px;
 }
@@ -189,6 +200,10 @@ h1 span {
     color: #323232;
 }
 
+.fa-graduation-cap, .fa-briefcase, .fa-pencil {
+    color:#FFD700 !important;
+}
+
 @media screen and (max-width: 1023px) {
     .left-side p {
         font-size: 12px;
@@ -202,15 +217,14 @@ h1 span {
         margin-right: 50px;
         color: #323232;
         font-size: 20px;
-        margin-bottom: 100px;
     }
 
     .hobbies span {
         margin-right: 20px;
     }
 
-    i {
-        font-size: 40px !important;
+    .right-side h2 i {
+        font-size: 40px;
         color: #2C2C2C;
     }
 
@@ -251,7 +265,16 @@ h1 span {
 @media screen and (max-width: 767px) {
     body {
         margin: 0px !important;
-        display: block !important;
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    figure {
+        display:none;
+    }
+
+    .left-side>div>h2 {
+        margin: auto;
     }
 
     .left-side {
@@ -262,6 +285,17 @@ h1 span {
         width: 100% !important;
     }
 
+    .right-side h2 {
+        margin: 20px 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .right-side h2 i {
+        font-size: 20px;
+        margin-right: 3px;
+    }
+
     .name {
         margin-left: 30px;
         margin-bottom: 30px;
@@ -270,6 +304,14 @@ h1 span {
     .formation>div, .exp>div, .reco>div {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .right-formation-1, .right-formation-2, .right-exp-1  {
+        width:60%;
+    }
+
+    .left-formation-1, .left-formation-2, .left-exp-1 {
+        width:40%;
     }
 }
 
