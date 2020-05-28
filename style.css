@@ -111,30 +111,30 @@ h1 span {
     margin-right: 70px;
 }
 
-.formation-1, .formation-2 {
+.formation-sub {
     display: flex;
     margin-bottom: 30px;
 }
 
-.left-formation-1, .left-formation-2 {
+.left-formation {
     width:30%;
 }
 
-.left-formation-1>p, .left-formation-2>p {
+.left-formation>p {
     margin-top: 0px;
     margin-bottom: 100px;
     color: #323232;
 }
 
-.right-formation-1, .right-formation-2 {
+.right-formation {
     width:70%;
 }
 
-.right-formation-1 h3, .right-formation-2 h3 {
+.right-formation h3 {
     margin-top: 0px;
 }
 
-.right-formation-1>div>p, .right-formation-2>div>p {
+.right-formation>div>p {
     color: #323232;
 }
 
@@ -145,31 +145,31 @@ h1 span {
     margin-right: 70px;
 }
 
-.exp-1 {
+.exp-sub {
     margin-top: 30px;
     display: flex;
 }
 
-.left-exp-1 {
+.left-exp {
     width:30%;
 }
 
-.left-exp-1>p {
+.left-exp>p {
     margin-top: 0px;
     margin-bottom: 100px;
     color: #323232;
 
 }
 
-.right-exp-1 {
+.right-exp {
     width:70%;
 }
 
-.right-exp-1 h3 {
+.right-exp h3 {
     margin-top: 0px;
 }
 
-.right-exp-1>div>p {
+.right-exp>div>p {
     color: #323232;
 }
 
@@ -306,11 +306,11 @@ h1 span {
         margin-right: 30px;
     }
 
-    .right-formation-1, .right-formation-2, .right-exp-1  {
+    .right-formation, .right-exp  {
         width:60%;
     }
 
-    .left-formation-1, .left-formation-2, .left-exp-1 {
+    .left-formation, .left-exp {
         width:40%;
     }
 
